@@ -156,8 +156,23 @@ export default function About() {
                 >
                   GitHub
                 </Link>
+                <br /> <br />
+                Ver{" "}
+                <Link
+                  href="/"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  demo
+                </Link>
               </Text>
-              <Stack direction={{ sm: "column", lg: "row" }} spacing="2">
+              <Stack
+                direction={{ sm: "column", lg: "row" }}
+                spacing="2"
+                marginBottom="15px"
+              >
                 <Badge width="fit-content" colorScheme="purple">
                   TypeScript
                 </Badge>
@@ -198,6 +213,17 @@ export default function About() {
                 >
                   GitHub
                 </Link>
+                <br /> <br />
+                Ver{" "}
+                <Link
+                  href="http://best-advice.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  demo
+                </Link>
               </Text>
               <Stack
                 marginBottom="15px"
@@ -221,21 +247,32 @@ export default function About() {
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
-                Aerolab Challenge
+                Rewards Store
               </Heading>
               <Text color="dark.background" marginBottom="20px">
-                Challenge de Aerolab. Simula una tienda de recompensas en la que
-                podes canjear tus puntos. Consume su API de productos y los
-                muestra para poder canjear los productos. <br /> <br />
+                Rewards Store. Simula una tienda de recompensas en la que podes
+                canjear tus puntos. Consume su API de productos y los muestra
+                para poder canjear los productos. <br /> <br />
                 Ver en{" "}
                 <Link
-                  href="https://github.com/jjuannn/aerolab-challenge"
+                  href="https://github.com/jjuannn/aerolab-challenge-v2"
                   target="_blank"
                   rel="noreferrer"
                   color="purple"
                   fontWeight="bold"
                 >
                   GitHub
+                </Link>
+                <br /> <br />
+                Ver{" "}
+                <Link
+                  href="http://aerolab-challenge-v2.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  demo
                 </Link>
               </Text>
               <Stack
@@ -253,7 +290,7 @@ export default function About() {
                   Emotion
                 </Badge>
               </Stack>
-              <Image src="/aerolabchallenge.gif" alt="" />
+              <Image src="/aerolab.gif" alt="" />
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
@@ -273,6 +310,17 @@ export default function About() {
                   fontWeight="bold"
                 >
                   GitHub
+                </Link>
+                <br /> <br />
+                Ver{" "}
+                <Link
+                  href="http://pc-discounts-app.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  demo
                 </Link>
               </Text>
               <Stack
