@@ -18,6 +18,9 @@ const global = {
   body: {
     background: colors.dark.background,
   },
+  html: {
+    scrollBehavior: "smooth",
+  },
   "*": {
     color: "white",
     padding: 0,
