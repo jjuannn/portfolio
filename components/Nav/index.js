@@ -23,7 +23,11 @@ export default function Nav() {
             Proyectos
           </Link>
         </Text>
-        <Text>Contacto</Text>
+        <Text>
+          <Link _hover={{ color: "purple" }} href="#contacto">
+            Contacto
+          </Link>
+        </Text>
       </Stack>
     </Flex>
   );

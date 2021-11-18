@@ -14,7 +14,6 @@ export default function AppLayout({ children }) {
       <Flex direction="column" as="main" flex="1">
         {children}
       </Flex>
-      <footer>footer</footer>
     </Flex>
   );
 }

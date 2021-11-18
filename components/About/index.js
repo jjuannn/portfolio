@@ -8,6 +8,9 @@ import {
   Badge,
   Link,
   Image,
+  List,
+  ListItem,
+  ListIcon,
 } from "@chakra-ui/react";
 import {
   SiCss3,
@@ -17,12 +20,13 @@ import {
   SiReact,
   SiExpress,
   SiTypescript,
-  SiSequelize,
   SiSqlite,
-  SiFirebase,
   SiNextdotjs,
   SiGit,
   SiCypress,
+  SiGmail,
+  SiLinkedin,
+  SiGithub,
 } from "react-icons/si";
 import { MdMobileFriendly } from "react-icons/md";
 import { AiFillApi } from "react-icons/ai";
@@ -328,6 +332,66 @@ export default function About() {
               <Image src="/discount.gif" width="100%" alt="" />
             </Box>
           </Stack>
+        </Box>
+      </Box>
+      <Box width="100%">
+        <Box marginBottom="40px">
+          <Heading id="contacto" marginBottom="30px" size="3xl">
+            Contacto
+          </Heading>
+          <Flex direction="column">
+            <Box borderRadius="md" padding="5">
+              <Flex
+                justifyContent="space-around"
+                direction={{ sm: "column", lg: "row" }}
+                spacing="2"
+                marginBottom="15px"
+              >
+                <Box display="flex" alignItems="center" flexDirection="column">
+                  <Text marginBottom="10px">
+                    <Link
+                      href="https://github.com/jjuannn"
+                      target="_blank"
+                      rel="noreferrer"
+                      color="purple"
+                      fontWeight="bold"
+                    >
+                      GitHub
+                    </Link>
+                  </Text>
+                  <Icon fontSize="50px" as={SiGithub} />
+                </Box>
+                <Box display="flex" alignItems="center" flexDirection="column">
+                  <Text marginBottom="10px">
+                    <Link
+                      href="mailto:correo@gmail.com"
+                      target="_blank"
+                      rel="noreferrer"
+                      color="purple"
+                      fontWeight="bold"
+                    >
+                      Gmail
+                    </Link>
+                  </Text>
+                  <Icon fontSize="50px" as={SiGmail} />
+                </Box>
+                <Box display="flex" alignItems="center" flexDirection="column">
+                  <Text marginBottom="10px">
+                    <Link
+                      href="/"
+                      target="_blank"
+                      rel="noreferrer"
+                      color="purple"
+                      fontWeight="bold"
+                    >
+                      LinkedIn
+                    </Link>
+                  </Text>
+                  <Icon fontSize="50px" as={SiLinkedin} />
+                </Box>
+              </Flex>
+            </Box>
+          </Flex>
         </Box>
       </Box>
     </Flex>
