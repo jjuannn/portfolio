@@ -79,8 +79,6 @@ export default function About() {
               <Text marginBottom="10px">Express</Text>
               <Icon fontSize="50px" as={SiExpress} />
             </Box>
-          </Stack>
-          <Stack spacing="auto" direction={{ sm: "column", lg: "row" }}>
             <Box display="flex" alignItems="center" flexDirection="column">
               <Text marginBottom="10px">Next JS</Text>
               <Icon fontSize="50px" as={SiNextdotjs} />
@@ -88,18 +86,6 @@ export default function About() {
             <Box display="flex" alignItems="center" flexDirection="column">
               <Text marginBottom="10px">TypeScript</Text>
               <Icon fontSize="50px" as={SiTypescript} />
-            </Box>
-            <Box display="flex" alignItems="center" flexDirection="column">
-              <Text marginBottom="10px">Sequelize</Text>
-              <Icon fontSize="50px" as={SiSequelize} />
-            </Box>
-            <Box display="flex" alignItems="center" flexDirection="column">
-              <Text marginBottom="10px">SQLite</Text>
-              <Icon fontSize="50px" as={SiSqlite} />
-            </Box>
-            <Box display="flex" alignItems="center" flexDirection="column">
-              <Text marginBottom="10px">Firebase</Text>
-              <Icon fontSize="50px" as={SiFirebase} />
             </Box>
           </Stack>
         </Box>
@@ -115,6 +101,10 @@ export default function About() {
             <Box display="flex" alignItems="center" flexDirection="column">
               <Text marginBottom="10px">Rest API</Text>
               <Icon fontSize="50px" as={AiFillApi} />
+            </Box>
+            <Box display="flex" alignItems="center" flexDirection="column">
+              <Text marginBottom="10px">Relational Database</Text>
+              <Icon fontSize="50px" as={SiSqlite} />
             </Box>
             <Box display="flex" alignItems="center" flexDirection="column">
               <Text marginBottom="10px">Git </Text>
@@ -156,10 +146,10 @@ export default function About() {
                 >
                   GitHub
                 </Link>
-                <br /> <br />
+                <br />
                 Ver{" "}
                 <Link
-                  href="/"
+                  href="https://car-rental-agency.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                   color="purple"
@@ -183,7 +173,7 @@ export default function About() {
                   Node (Express)
                 </Badge>
                 <Badge width="fit-content" colorScheme="purple">
-                  SQLite 3
+                  PostgreSQL
                 </Badge>
                 <Badge width="fit-content" colorScheme="purple">
                   Sequelize
@@ -213,7 +203,7 @@ export default function About() {
                 >
                   GitHub
                 </Link>
-                <br /> <br />
+                <br />
                 Ver{" "}
                 <Link
                   href="http://best-advice.vercel.app/"
@@ -263,7 +253,7 @@ export default function About() {
                 >
                   GitHub
                 </Link>
-                <br /> <br />
+                <br />
                 Ver{" "}
                 <Link
                   href="http://aerolab-challenge-v2.vercel.app/"
@@ -311,7 +301,7 @@ export default function About() {
                 >
                   GitHub
                 </Link>
-                <br /> <br />
+                <br />
                 Ver{" "}
                 <Link
                   href="http://pc-discounts-app.vercel.app/"
