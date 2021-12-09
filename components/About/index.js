@@ -364,7 +364,7 @@ export default function About() {
                 <Box display="flex" alignItems="center" flexDirection="column">
                   <Text marginBottom="10px">
                     <Link
-                      href="mailto:correo@gmail.com"
+                      href="mailto:averojuanm@gmail.com"
                       target="_blank"
                       rel="noreferrer"
                       color="purple"
@@ -378,7 +378,7 @@ export default function About() {
                 <Box display="flex" alignItems="center" flexDirection="column">
                   <Text marginBottom="10px">
                     <Link
-                      href="/"
+                      href="https://www.linkedin.com/in/juan-avero-154b52227/"
                       target="_blank"
                       rel="noreferrer"
                       color="purple"
