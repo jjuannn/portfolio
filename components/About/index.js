@@ -186,7 +186,7 @@ export default function About() {
                   Chakra UI
                 </Badge>
                  <Badge width="fit-content" colorScheme="purple">
-                  Chakra UI
+                  Jest
                 </Badge>
               </Stack>
               <Image marginBottom="15px" src="/caragency.gif" alt="" />
