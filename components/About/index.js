@@ -185,6 +185,9 @@ export default function About() {
                 <Badge width="fit-content" colorScheme="purple">
                   Chakra UI
                 </Badge>
+                 <Badge width="fit-content" colorScheme="purple">
+                  Chakra UI
+                </Badge>
               </Stack>
               <Image marginBottom="15px" src="/caragency.gif" alt="" />
             </Box>
