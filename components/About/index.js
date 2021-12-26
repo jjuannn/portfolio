@@ -185,7 +185,7 @@ export default function About() {
                 <Badge width="fit-content" colorScheme="purple">
                   Chakra UI
                 </Badge>
-                 <Badge width="fit-content" colorScheme="purple">
+                <Badge width="fit-content" colorScheme="purple">
                   Jest
                 </Badge>
               </Stack>
@@ -246,6 +246,59 @@ export default function About() {
                 </Badge>
               </Stack>
               <Image src="/bestadvice.gif" alt="" width="100%" />
+            </Box>
+            <Box bg="white" borderRadius="md" padding="5">
+              <Heading color="dark.background" marginBottom="20px" size="md">
+                Tasks API
+              </Heading>
+              <Text color="dark.background" marginBottom="20px">
+                Una API que permimte administrar una lista de tareas. Cuenta con
+                endpoints para crear, editar, borrar, ver, y filtrar tareas por
+                nombre.
+                <br /> <br />
+                Ver en{" "}
+                <Link
+                  href="https://github.com/jjuannn/tasks-api"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  GitHub
+                </Link>
+                <br />
+                Ver{" "}
+                <Link
+                  href="https://to-do-app-j.herokuapp.com/tasks/all"
+                  target="_blank"
+                  rel="noreferrer"
+                  color="purple"
+                  fontWeight="bold"
+                >
+                  demo
+                </Link>
+              </Text>
+              <Stack
+                direction={{ sm: "column", lg: "row" }}
+                spacing="2"
+                marginBottom="15px"
+              >
+                <Badge width="fit-content" colorScheme="purple">
+                  TypeScript
+                </Badge>
+                <Badge width="fit-content" colorScheme="purple">
+                  Nest JS
+                </Badge>
+                <Badge width="fit-content" colorScheme="purple">
+                  Node JS
+                </Badge>
+                <Badge width="fit-content" colorScheme="purple">
+                  PostgreSQL
+                </Badge>
+                <Badge width="fit-content" colorScheme="purple">
+                  TypeORM
+                </Badge>
+              </Stack>
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
