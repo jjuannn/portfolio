@@ -189,7 +189,12 @@ export default function About() {
                   Jest
                 </Badge>
               </Stack>
-              <Image marginBottom="15px" src="/caragency.gif" alt="" />
+              <Image
+                width="100%"
+                marginBottom="15px"
+                src="/caragency.gif"
+                alt=""
+              />
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
@@ -240,7 +245,7 @@ export default function About() {
                   Chakra UI
                 </Badge>
               </Stack>
-              <Image src="/bestadvice.gif" alt="" />
+              <Image src="/bestadvice.gif" alt="" width="100%" />
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
@@ -287,7 +292,7 @@ export default function About() {
                   Emotion
                 </Badge>
               </Stack>
-              <Image src="/aerolab.gif" alt="" />
+              <Image src="/aerolab.gif" alt="" width="100%" />
             </Box>
             <Box bg="white" borderRadius="md" padding="5">
               <Heading color="dark.background" marginBottom="20px" size="md">
