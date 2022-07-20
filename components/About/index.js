@@ -310,7 +310,7 @@ export default function About() {
                 para poder canjear los productos. <br /> <br />
                 Ver en{" "}
                 <Link
-                  href="https://github.com/jjuannn/aerolab-challenge-v2"
+                  href="https://github.com/jjuannn/rewards-store-v2
                   target="_blank"
                   rel="noreferrer"
                   color="purple"
